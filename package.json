@@ -1,0 +1,23 @@
+{
+  "name": "07-storybook-com-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alura-cursos/07-storybook-com-react.git",
+  "author": "Marcos Pereira <vinicius.hein@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "next start",
+    "dev": "next dev",
+    "build": "next start"
+  },
+  "dependencies": {
+    "next": "^13.1.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.27",
+    "typescript": "4.9.4"
+  }
+}

@@ -1,3 +1,7 @@
-# Storybook e React: Documentando Front Ends 
+# Storybook e React: Documentando Front Ends
 
 ...
+
+## Passo a passo do projeto
+
+- `yarn init`
