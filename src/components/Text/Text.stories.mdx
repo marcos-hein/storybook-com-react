@@ -1,0 +1,23 @@
+import { Meta, Canvas, Story, ArgsTable } from "@storybook/addon-docs/blocks";
+import Text from "./Text";
+
+<Meta title="Components/Text" component={Text} />
+
+# Text
+
+Veniam irure culpa fugiat irure magna et sint anim sint excepteur deserunt do nulla veniam.
+
+<ArgsTable of={Text} />
+
+## Text Example
+
+<Canvas>
+  <Story
+    name="Text Example"
+    args={{
+      children: "Texto do heading",
+    }}
+  >
+    {(args) => <Text {...args} />}
+  </Story>
+</Canvas>
